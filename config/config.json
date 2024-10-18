@@ -1,0 +1,30 @@
+{
+    "development": {
+      "username": "sa",
+      "password": "12332155ZbLe!",
+      "database": "smartHome",
+      "host": "147.45.239.190",
+      "dialect": "mssql",
+      "dialectOptions": {
+        "options": {
+          "encrypt": false,
+          "trustServerCertificate": true
+        }
+      }
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "database_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
+  

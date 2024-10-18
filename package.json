@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for smart home",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "kollokpoi",
+  "license": "ISC",
+  "dependencies": {
+    "annyang": "^2.6.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "ping": "^0.4.4",
+    "sequelize": "^6.37.3",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2",
+    "sequelize-cli": "^6.6.2"
+  }
+}
